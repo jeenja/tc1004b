@@ -1,4 +1,4 @@
-var opts = {
+var opts1 = {
   angle: 0.04, // The span of the gauge arc
   lineWidth: 0.3, // The line thickness
   radiusScale: 1, // Relative radius
@@ -26,7 +26,7 @@ var opts = {
 
 //Gauge 1
 var target1 = document.getElementById('myGauge1'); // your canvas element
-var gauge1 = new Gauge(target1).setOptions(opts); // create sexy gauge!
+var gauge1 = new Gauge(target1).setOptions(opts1); // create sexy gauge!
 
 gauge1.maxValue = 100; // set max gauge value
 gauge1.setMinValue(0);  // Prefer setter over gauge.minValue = 0
